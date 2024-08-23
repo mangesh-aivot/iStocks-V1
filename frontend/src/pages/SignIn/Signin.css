@@ -1,0 +1,143 @@
+
+ .auth-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width:100%;
+}
+
+.auth-left, .auth-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+  width: 50%;
+}
+
+.auth-left {
+  background-color: #28c39a;
+  color: white;
+  text-align: center;
+}
+
+.auth-right {
+  background-color: white;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.signinToIntelliForecast {
+  color:white;
+}
+
+.auth-btn {
+  background-color: #28c39a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.auth-btn:hover {
+  background-color: #22a180;
+}
+
+.signin-submit-btn {
+  background-color: #15161c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.signin-submit-btn:hover {
+  background-color: rgb(49, 47, 47);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.social-icons i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.social-icons i:hover {
+  color: #28c39a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: rgb(218, 216, 216);
+}
+
+input:focus {
+  outline: none;
+  border-color: #28c39a;
+  background-color: white;
+}
+
+.forgot-password {
+  text-align: left;
+  color: #28c39a;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+/* @media (min-width: 768px) {
+  .auth-container {
+    flex-direction: row;
+  }
+
+  .auth-left, .auth-right {
+    flex: 1;
+
+  }
+  .auth-left{
+    width: 100%;
+  }
+  .auth-right {
+    width: 100%;
+
+  }
+} */
+
+@media (max-width: 768px) {
+  .auth-container {
+    flex-direction: column;
+  }
+
+  .auth-left, .auth-right {
+    flex: 1;
+    padding: 0px;
+  }
+  .auth-left{
+    width: 100%;
+  }
+  .auth-right {
+    width: 100%;
+
+  }
+}

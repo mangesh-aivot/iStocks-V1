@@ -1,0 +1,104 @@
+,Company Name,Company Symbol,Mentions,Summaries,Sentiment
+1,Avenue Supermarts,DMART,3.0,"""Prabhudas Lilladher recommended accumulate rating on Avenue Supermarts with a target price of Rs 5104 in its research report dated July 13, 2024. "", ""DMart share price gains more than 4% after Avenue Supermarts post in line Q1 results. Should you Buy, Sell or Hold?"", ""Q1 results today: Avenue Supermarts, Geojit Financial Services, Plastibends India & more to report earnings on July 13"""," Net Sentiment Score : 1.2
+
+Explanation of the calculation:
+1. Prabhudas Lilladher recommended accumulate rating on Avenue Supermarts (1)
+2. DMart share price gains more than 4% after Avenue Supermarts post in line Q1 results (0.8)
+3. No sentiment expressed in ""Q1 results today: Avenue Supermarts, Geojit Financial Services, Plastibends India & more to report earnings on July 13"" (0)
+
+The sentiment scores are assigned as follows:
+- Recommendation of accumulate rating: 1
+- Stock price gain (>4%): 0.8
+- No explicit sentiment: 0"
+2,UltraTech Cement,ULTRACEMCO,3.0,"""The 30-share benchmark index jumped 145 points to settle at 80,665. The broader NSE Nifty gained 84 points to strengthen its hold above 24,580. From the Sensex pack, SBI, NTPC, and UltraTech Cement were the top gainers, rising 2-2.5%. M&M, Bajaj Finance, Tata Motors, and Maruti Suzuki also closed with gains"", ""Wholesale price inflation, ECB interest rate decision and Q1 results of RIL, Infosys, HDFC Bank, Bajaj Auto, Asian Paints, UltraTech Cement, Wipro are the key events, data points to track "", ""Hero MotoCorp, Nestle, UltraTech Cement, NTPC and more: Axis Securities lists top stock picks for Union Budget 2024"""," Net Sentiment Score : 0.6
+
+I calculated the sentiment scores as follows:
+
+1. ""The 30-share benchmark index jumped 145 points to settle at 80,665. The broader NSE Nifty gained 84 points to strengthen its hold above 24,580."" - Neutral (0) as it does not specifically mention UltraTech Cement's performance but reflects a positive trend in the market overall.
+
+2. ""From the Sensex pack, SBI, NTPC, and UltraTech Cement were the top gainers, rising 2-2.5%."" - Positive (0.6) as it indicates that UltraTech Cement was one of the top performing stocks in the Sensex, with a gain of 2-2.5%.
+
+3. ""Wholesale price inflation, ECB interest rate decision and Q1 results of RIL, Infosys, HDFC Bank, Bajaj Auto, Asian Paints, UltraTech Cement, Wipro are the key events, data points to track"" - Neutral (0) as it doesn't provide any sentiment about the company's performance.
+
+4. ""Hero MotoCorp, Nestle, UltraTech Cement, NTPC and more: Axis Securities lists top stock picks for Union Budget 2024"" - Positive (0.4) as it indicates that UltraTech Cement is among the top stock picks by a reputable firm, suggesting positive sentiment towards the company.
+
+The net sentiment score is calculated by summing up these scores, which gives us 0.6 (0 + 0.6 + 0 + 0.4)."
+3,Asian Paints,ASIANPAINT,3.0,"""Wholesale price inflation, ECB interest rate decision and Q1 results of RIL, Infosys, HDFC Bank, Bajaj Auto, Asian Paints, UltraTech Cement, Wipro are the key events, data points to track "", ""ONGC, Shriram Finance, SBI Life Insurance, Bajaj Auto and SBI were among the top gainers on the Nifty, while losers were LTIMindtree, Asian Paints, Grasim Industries, Tata Steel and Axis Bank "", ""Top Gainers and Losers today on 15 July, 2024: Oil & Natural Gas Corporation, SBI Life Insurance Company, LTI Mindtree, Asian Paints among most active stocks; Check full list here"""," Net Sentiment Score : -0.6
+
+Here's how I calculated it:
+- Key events: 0 (neutral)
+- Among the top gainers: 1 for Bajaj Auto (since it is a positive mention), -1 for ONGC, Shriram Finance, SBI Life Insurance, and SBI (since they are mentioned as gainers but not Asian Paints), so net 0 for this part.
+- Among the losers: -1 for Asian Paints (since it is mentioned as a loser)
+- Most active stocks: -0.33 for Asian Paints (since it is listed among most active stocks, but negatively associated with being a loser)
+
+Adding all these up gives us the net sentiment score of -0.6."
+4,Jio Financial Services,JIOFIN,3.0,"""Jio Financial Q1 Results: Jio Financial Services shares rose 2% to Rs 355 on the BSE before Q1 FY25 results and RBI's CIC conversion approval. Q4 FY24 net profit was Rs 311 crore, revenue Rs 418 crore. FY24 net profit hit Rs 1,604 crore. Application to RBI in November 2023 after demerging from Reliance Industries Limited, RSI currently at 46.8 per Trendlyne data."", ""Q1 Results 2024 Live Updates: Jio Financial Services saw a sharp spike in last minutes of trading session today to close 1.34 percent higher at Rs 355.05 apiece on BSE. "", ""Jio Financial Services gets RBI green light to become a core investment company"""," Net Sentiment Score: 1.32
+
+To calculate the sentiment score for Jio Financial Services, I will use the following scale: Positive sentiments (+), Negative sentiments (-) and Neutral sentiments (0).
+
+1. ""Jio Financial Q1 Results: Jio Financial Services shares rose 2% to Rs 355 on the BSE before Q1 FY25 results and RBI's CIC conversion approval. Q4 FY24 net profit was Rs 311 crore, revenue Rs 418 crore. FY24 net profit hit Rs 1,604 crore. Application to RBI in November 2023 after demerging from Reliance Industries Limited, RSI currently at 46.8 per Trendlyne data.""
+   + (Q1 results release) = 0.6
+   + (Shares rising) = 0.5
+   + (RBI's CIC conversion approval) = 0.8
+   + (Positive Q4 and FY24 net profit numbers) = 0.6
+   + (Application to RBI in November 2023) = 0
+   + (Demerging from Reliance Industries Limited) = -0.2 (Neutral-Negative)
+   + (Current RSI at 46.8) = 0 (Neutral)
+   Sentiment Score: 2.5 / 6 = 0.417
+
+2. ""Q1 Results 2024 Live Updates: Jio Financial Services saw a sharp spike in last minutes of trading session today to close 1.34 percent higher at Rs 355.05 apiece on BSE.""
+   + (Shares rising sharply) = 0.7
+   + (Closing higher) = 0.6
+   Sentiment Score: 1.3 / 2 = 0.65
+
+3. ""Jio Financial Services gets RBI green light to become a core investment company""
+   + (RBI approval for CIC conversion) = 0.8
+   Sentiment Score: 0.8 / 1 = 0.8
+
+Average sentiment score of the three headlines is calculated as follows: (0.417+0.65+0.8)/3 = 1.32
+
+Net Sentiment Score : 1.32"
+5,Zomato,ZOMATO,3.0,"""Deepinder Goyal becomes a billionaire as Zomato rallies; stock jumps 83% so far in 2024"", ""Stocks including HCL Tech, IREDA, Jio Financial, RVNL, HDFC Life, DMart, Lupin, Zomato and more may remain under spotlight before the opening bell on Monday, July 15."", ""CLSA maintained a 'buy' on Zomato for a target of Rs 248 apiece. Similarly, UBS iterated a 'buy' call on the stock and gave a target of Rs 250 apiece.""", Net Sentiment Score: 1.3 (Calculation: 1 + 0 + 0.3 = 1.3)
+6,Aurobindo Pharma,AUROPHARMA,3.0,"""Aurobindo Pharma board meeting on July 18, 2024, to discuss share buyback. Stocks hit Rs 1,394, a record. First-ever buyback. Shares soared 86% in a year, 27.3% YTD."", ""In the past, Aurobindo Pharma has executed a stock split as well as issued bonus to shareholders back in 2015 "", ""Aurobindo Pharma share price rises 6% to 52-week high. Board meeting on 18 July, 2024 to consider share buyback"""," Net Sentiment Score: 1.93
+
+Explanation of scores:
+
+1. ""Aurobindo Pharma board meeting on July 18, 2024, to discuss share buyback. Stocks hit Rs 1,394, a record. First-ever buyback. Shares soared 86% in a year, 27.3% YTD."" - Sentiment Score: 1
+   Reasoning: Positive news about stock price hitting an all-time high, the first-ever share buyback, and strong performance indicators like 86% increase in a year and 27.3% YTD.
+
+2. ""In the past, Aurobindo Pharma has executed a stock split as well as issued bonus to shareholders back in 2015"" - Sentiment Score: 0.33
+   Reasoning: Mixed news about stock splits and bonuses given in the past, which may be viewed as positive actions for shareholders but not as strong as a first-ever share buyback or record high stock prices.
+
+3. ""Aurobindo Pharma share price rises 6% to 52-week high. Board meeting on 18 July, 2024 to consider share buyback"" - Sentiment Score: 0.67
+   Reasoning: Positive news about stock prices reaching a 52-week high and the upcoming board meeting indicating potential for further positive news related to share buyback."
+7,ICICI Securities,ISEC,3.0,"""ICICI Securities is bullish on Aadhar Housing Finance recommended buy rating on the stock with a target price of Rs 550 in its research report dated July 12, 2024. "", ""ICICI Securities recommended reduce rating on HCL Technologies with a target price of Rs 1455 in its research report dated July 14, 2024. "", ""Top Stock Recommendations: Dharmesh Shah of ICICI Securities suggests buying BEL, and LTIMindtree today""", Net Sentiment Score : 0.75
+0,,,,," Net Sentiment Score : 4.29
+
+Explanation: To calculate the net sentiment score, I assigned a sentiment value to each headline based on stock price movement and market-related events. A positive event or news (like an increase in share prices, approval of applications, etc.) was given a positive sentiment value, while a negative event or news (like network glitches, decreases in share prices, etc.) was given a negative sentiment value. Here's how I calculated the sentiment values for each headline:
+
+1. MRF, India's highest-priced stock, gained attention on Monday's BSE session due to reports of a price increase effective July 18. This led to a surge in tyre stocks: JK Tyre & Industries rose 13%, CEAT jumped 7%, Apollo Tyre gained 5%, and MRF shares increased 4% to Rs 1,34,281.
+	* Sentiment Value: 0.9 (4% increase in share price)
+2. Jio Financial Q1 Results: Jio Financial Services shares rose 2% to Rs 355 on the BSE before Q1 FY25 results and RBI's CIC conversion approval. Q4 FY24 net profit was Rs 311 crore, revenue Rs 418 crore. FY24 net profit hit Rs 1,604 crore. Application to RBI in November 2023 after demerging from Reliance Industries Limited, RSI currently at 46.8 per Trendlyne data.
+	* Sentiment Value: 0.9 (2% increase in share price and positive events like RBI approval and profit growth)
+3. Q1 Results 2024 Live Updates: Jio Financial Services saw a sharp spike in last minutes of trading session today to close 1.34 percent higher at Rs 355.05 apiece on BSE.
+	* Sentiment Value: 0.9 (1.34% increase in share price)
+4. Sebi designates BSE as supervisory body for investment advisers. Details here
+	* Sentiment Value: 0.1 (Neutral news, no stock movement mentioned)
+5. BSE F&O down for an hour: Nithin Kamath flags BSE-related network glitch, claims Zerodha can do nothing about it
+	* Sentiment Value: -0.2 (-hour-long downtime in trading session)
+6. HDFC AMC stock climbed 3.05% intraday to a high of Rs 4295.20 against the previous close of Rs 4168.05 on BSE.  Market cap of the firm rose to Rs 89,532.19 crore.
+	* Sentiment Value: 0.9 (3.05% increase in share price and growth in market capitalization)
+7. Varun Beverages shares gained 3.11% to Rs 1633 on Monday against the previous close of Rs 1583.60 on BSE. Market cap of the firm climbed to Rs 2.10 lakh crore
+	* Sentiment Value: 0.9 (3.11% increase in share price and growth in market capitalization)
+8. Multibagger stock: The stock can rise up to Rs 2,100 mark, according to the brokerage. The IT stock closed at Rs 1,864 on BSE on Friday.
+	* Sentiment Value: 0.5 (Positive sentiment due to potential increase in share price, but no current share price movement mentioned)
+9. The stock climbed 4.29% to Rs 5,166.10 against the previous close of Rs 4953.35 on BSE. Market cap of the firm climbed to Rs 3.24 lakh crore.
+	* Sentiment Value: 0.9 (4.29% increase in share price and growth in market capitalization)
+10. Multibagger stock: The stock rose 5% to Rs 109.80 today against the previous close of Rs 104.60 on BSE. Market cap of the firm climbed to Rs 3281 crore.
+	* Sentiment Value: 0.5 (Positive sentiment due to potential increase in share price, but no current share price movement mentioned)
+11. In the previous session, Jupiter Wagons shares ended 0.97% higher at Rs 696 against Thursday's close of Rs 689.30 on BSE.
+	* Sentiment Value: 0.1 (Neutral news, no stock movement mentioned)
+12. Zee Entertainment shares rose 8.22 per cent intra day at Rs 159.25 against the previous close of Rs 147.15 on BSE.
+	* Sentiment Value: 0.8 (8.22% increase in share price)
+
+The total sentiment score is calculated by adding up the sentiment values assigned to each headline, resulting in a net sentiment score of 4.29."

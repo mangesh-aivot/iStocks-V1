@@ -1,0 +1,25 @@
+.footer-container {
+    /* width: -webkit-fill-available; */
+    padding: 10px 1vw;
+    background-color: #21222C;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98vw;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .footer-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,25 @@
+.index-card {
+    background-color: #15161c;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+    gap: 5vw;
+  }
+  
+  .index-name{
+    flex:4;
+    
+  }
+  .index-price{
+    flex:1;
+    align-items: center;
+    margin-left: 2vw;
+  }
+  .index-change{
+    flex:1;
+    align-items: center;
+  }

@@ -1,0 +1,21 @@
+.trend-card {
+    /* background-color: #15161c; */
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    flex: 1;
+    display: flex;
+    height: 10vh
+    
+
+  }
+  .trend-card-image{
+    margin:0;
+    height: 80%;
+  }
+  .trend-card-text{
+    font-size: 2em;
+    margin:0;
+    flex:2;
+    
+  }

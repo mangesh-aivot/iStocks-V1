@@ -1,0 +1,70 @@
+/* Technical Analysis Background */
+.TechnicalAnalysis-background {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the background covers the full viewport height */
+    background-color: #2A2B38;
+}
+
+/* Technical Analysis Content */
+.TechnicalAnalysis-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center content vertically */
+}
+
+/* Technical Analysis Heading Text */
+.TechnicalAnalysis-heading-text {
+    color: white;
+    padding: 1vw;
+}
+
+/* Technical Analysis Table */
+.TechnicalAnalysis-table {
+    height: 86vh;
+    background-color: #2A2B38;
+}
+
+th {
+    background-color: #15161c;
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.spinner {
+    border: 8px solid #f3f3f3; /* Light grey background */
+    border-top: 8px solid #3498db; /* Blue color for the spinner */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Spin animation */
+    margin-bottom: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Error Message */
+.error-message {
+    color: #ff4c4c; /* Red color for errors */
+    font-size: 1.2em;
+    margin-top: 20px;
+}
